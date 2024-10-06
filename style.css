@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.nav1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 img{
+    max-width: 200px;
+}
+
+.nav1 a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #24252a;
+    font-size: 16px;
+}
+.nav1 a:hover{
+    color: #606060;
+}
+
+
+.div1 a{
+    color: #24252a;
+    font-size: 18px;
+    margin: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.div1 a:hover{
+    color: #606060;
+}
+
+.hero{
+    margin-top: 10px;
+    padding: 0 60px;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    display: flex;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.hero .left-section .top h2{
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+
+.hero .left-section .top p{
+    color: #606060;
+    margin-bottom: 10px;    
+}
+
+
+.btn1 {
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    margin: 10px;
+    border: 1px solid #606060;
+    transition: all 0.3s ease 0s;
+    background: white;
+    color: #24252a;
+}
+
+.btn1:hover{
+    color: #dedede;
+    background: #24252a;
+}
+
+
+.btn2{
+  border: none;
+  border-radius: 10px;
+  border: 1px solid #606060;
+  padding: 7px;
+  transition: all 0.3s ease 0s;  
+  background: #24252a;
+  color: #dedede;
+}
+
+.btn2:hover
+{
+
+color: #24252a;
+background: white;
+
+}
+
+
+h1{
+    margin-top: 15px;
+    text-align:center;
+}
+
+/* ---
+
+
+-
+-
+
+
+PART  two
+
+
+--
+-
+
+--
+
+
+
+-
+*/
+.itmes{
+margin-top: 12%;
+padding: 0 60px;
+display: flex;
+}
+
+.itmes .itme .inner h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20%;
+}
+
+.itmes .itme .inner p{
+   text-align:start;
+   padding: 0 29px;
+   margin-bottom: 15px;
+   color: #24252a;
+}
+
+
+ button,.btn3 {
+    font-size: 16px;
+    color: #24252a;
+    padding: 0 10px;
+    margin: 20px;
+    background: white;
+    border-radius: 12px;
+    border:none;
+    border: 1px solid;
+    transition: all 0.3s ease 0s;
+}
+
+
+button,.btn3:hover {
+    color: #dedede;
+    background: #24252a;
+}
+
